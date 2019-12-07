@@ -1,0 +1,24 @@
+{
+	"name": "extendscode\sllize-voyager-themes",
+	"description": "This hook will add support for Voyager front-end themes",
+	"require": {
+		"larapack/hooks": "~1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"SllizeVoyagerThemes\\": "src/"
+		}
+	},
+	"extra": {
+		"hook": {
+			"providers": [
+				"SllizeVoyagerThemes\\SllizeVoyagerThemesServiceProvider"
+			]
+		},
+		"laravel": {
+			"providers": [
+				"SllizeVoyagerThemes\\SllizeVoyagerThemesServiceProvider"
+			]
+		}
+	}
+}
